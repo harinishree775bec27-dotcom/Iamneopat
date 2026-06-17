@@ -1,0 +1,17 @@
+#include<cmath>
+using namespace std;
+
+int main(){
+    char a;
+    int b;
+    float c;
+    
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    
+    cout<<std::fixed<<std::setprecision(2)<<a<<" ";
+    cout<<std::fixed<<std::setprecision(2)<<b<<" ";
+    cout<<std::fixed<<std::setprecision(2)<<c<<" ";
+    
+}
