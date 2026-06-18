@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cstring>
+
+using namespace std;
+int main(){
+    int i,len,zero=0,one=0;
+    char a[20];
+    cin>>a;
+    len=strlen(a);
+    for(i=0;i<len;i++){
+        if(a[i]==48){zero++;}
+        else{one++;}
+    }
+    ((zero==1)||(one==1))?cout<<"Yes":cout<<"No";
+    return 0;
+}
